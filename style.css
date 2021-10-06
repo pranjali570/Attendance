@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #dab1ec;
+}
+.body-bg {
+    background-color: #e2eafc;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-image: url(images/day.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #A8DADC;
+}
+.navbar-dark {
+    background-color: #1a535c;
+    color: aliceblue; 
+}
+.dark{
+    background-color: rgb(22, 21, 21);
+    color: aliceblue;
+    background-image: url(images/night.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+div.head-add-student {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin:0 auto;
+}
+div.head-add-student h2 {
+    font-size: 30px;
+    font-weight: 100;
+    text-decoration: overline underline;
+    margin-bottom: 15px;
+}
+div.students-list-container {
+    width:70%;
+    margin: 0 auto;
+    font-size: 18px;
+}   
+.table-hover {
+    background-color: #afecdf;
+    text-align:center;
+}
+.std-summary {
+    width: 70%;
+    text-align: center;
+    margin: 10px;
+}
+.footer-content{
+    background-color: #e9ecef;
+    border-style: none;    
+    height: 25px;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #495057;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+ }
+ .footer-dark {
+     background-color: #303235;
+     color: #727272;
+ }
