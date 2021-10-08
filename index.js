@@ -45,7 +45,6 @@ const addStudent = () => {
     document.getElementById("Present-std").innerHTML = countPresent;
     document.getElementById("Absent-std").innerHTML = countAbsent;
 
-    countTotal++;
     studentDetails.insertAdjacentHTML('afterbegin', generateStudentRow(newStudentDetails))
 
     globalStudentsData.push(newStudentDetails)
