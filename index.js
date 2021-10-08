@@ -22,6 +22,11 @@ const addStudent = () => {
             Attendance = markAttendance[i].value;
     }
 
+    if(document.getElementById("imageUrl").value != "") 
+        image = document.getElementById("imageUrl").value
+    else
+        image = "./images/profile.jfif"
+
     countTotal++;
     if(Attendance == "present")
         countPresent++
@@ -30,7 +35,7 @@ const addStudent = () => {
 
     const newStudentDetails = {
         id: `${Date.now()}`,
-        url: document.getElementById("imageUrl").value,
+        url: image,
         fullname: document.getElementById("StudentName").value,
         subject: document.getElementById("Subject").value,
         attendance: Attendance
