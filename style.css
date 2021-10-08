@@ -4,15 +4,15 @@
 }
 .navbar {
     background-color: #dab1ec;
+    color: #2b323a;
+    font-size: 25px;
+    font-weight: 70px;
 }
 
 .body-bg {
     background-color: #e2eafc;
+    color: #2b323a;
     font-family: 'Open Sans Condensed', sans-serif;
-    /* background-image: url(images/day.jpeg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; */
     
 }
 .navbar-dark {
@@ -31,11 +31,17 @@ div.head-add-student {
     text-align: center;
     margin:0 auto;
 }
-div.head-add-student h2 {
-    font-size: 30px;
+div.head-add-student h1 {
+    font-size: 100px;
     font-weight: 100;
     text-decoration: overline underline;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+}
+div.head-add-student button {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px;
+    background-color: rgb(238, 238, 161);
 }
 div.students-list-container {
     width:70%;
@@ -60,6 +66,7 @@ div#aboutUs {
 div#aboutUs div{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 div#contactUs {
     background-color: #c19fcc;
@@ -76,7 +83,7 @@ div#contactUs div {
 .footer-content{
     background-color: #e9ecef;
     border-style: none;    
-    height: 25px;
+    height: 35px;
     width: 100%;
     margin-top: 10px;
     text-align: center;
